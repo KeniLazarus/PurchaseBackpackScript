@@ -1,3 +1,1 @@
-Kolege i saborci, izvolite nas prvi automatski test (koji je odradio Cvoro)...
-Uputstvo za koriscenje: Snadjite se!
-I javite da li radi. Srecno svima!
+Login Automation test 
