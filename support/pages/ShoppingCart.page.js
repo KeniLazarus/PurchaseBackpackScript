@@ -1,3 +1,6 @@
+//Page with shopping cart, shows all items added to cart
+//Script confirms the existence of the page, then continues on to checkout
+
 class ShoppingCart {
 
     get CartPageName () {return $('//div[@class="title"]')};
@@ -7,9 +10,6 @@ async CartPageIdentifier () {
     await expect(this.CheckoutButton).toBeExisting()};
 
 async CheckoutButtonClick () {
-    await this.CheckoutButton.click();}
-
-
-}
+    await this.CheckoutButton.click();}}
 
 export default new ShoppingCart();

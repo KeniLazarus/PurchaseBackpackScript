@@ -1,3 +1,6 @@
+//Page with listed inventory
+//Script confirms the existence of the desired item (saucelabs backpack), adds it to cart, then opens cart
+
 class InventoryPage {
 
     get SauceLabsBackpack () {return $('//div[@class="inventory_item_name"]')};
@@ -11,9 +14,6 @@ async SauceLabsBackpackAddToCart () {
     await this.SauceLabsBackpackAddToCartButton.click()};
 
 async GoToCart () {
-    await this.ShoppingCartButton.click()};
-
-}
-
+    await this.ShoppingCartButton.click()};}
 
 export default new InventoryPage();
