@@ -1,5 +1,4 @@
-{ 
-  "name": "my-new-project",
+{ "name": "my-new-project",
   "type": "module",
   "devDependencies": {
     "@babel/core": "^7.22.5",

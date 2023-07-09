@@ -1,1 +1,1 @@
-Purchase Item automation test
+Purchase Item (Saucelabs Backpack) Automation Script

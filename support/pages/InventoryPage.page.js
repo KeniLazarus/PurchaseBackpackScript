@@ -1,5 +1,5 @@
-//Page with listed inventory
-//Script confirms the existence of the desired item (saucelabs backpack), adds it to cart, then opens cart
+//Page with listed inventory;
+//Script confirms the existence of the desired item (saucelabs backpack), adds it to cart, then opens cart.
 
 class InventoryPage {
 

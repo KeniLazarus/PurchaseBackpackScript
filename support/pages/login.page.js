@@ -1,5 +1,5 @@
-//Page with login information
-//Script inputs chosen username, password and clicks the login button
+//Page with login information;
+//Script inputs chosen username, password and clicks the login button.
 
 class LoginPage {
     get inputUsername () {return $('//input[@id="user-name"]');}

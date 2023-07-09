@@ -1,5 +1,5 @@
-//Page for item checkout, asks for user information. This is step one of the checkout process
-//Scripts confirms the existence of the page, then inputs the requested information before going on to the second checkout page
+//Page for item checkout, asks for user information. This is step one of the checkout process;
+//Scripts confirms the existence of the page, then inputs the requested information before going on to the second checkout page.
 
 class CheckoutStepOne {
 
