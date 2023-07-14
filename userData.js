@@ -2,10 +2,7 @@ require("dotenv").config();
 
 console.log(process.env.PASSWORD);
 
-export var username = {
+export var userCredentials = {
     username: 'standard_user',
-}
-
-export var password = {
-    password: process.env.PASSWORD,
+    password: process.env.PASSWORD
 }
