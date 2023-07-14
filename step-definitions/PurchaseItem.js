@@ -2,19 +2,18 @@
 //Below are steps to be taken to log in, place item in cart and reach the order confirmation page.
 
 import { Given, When, Then } from '@wdio/cucumber-framework';
-
-import LoginPage from '../support/pages/login.page.js';
-import InventoryPage from '../support/pages/InventoryPage.page.js';
-import ShoppingCart from '../support/pages/ShoppingCart.page.js';
-import CheckoutStepOne from '../support/pages/CheckoutStepOne.page.js';
-import CheckoutStepTwo from '../support/pages/CheckoutStepTwo.page.js';
-import CheckoutComplete from '../support/pages/CheckoutComplete.page.js';
+import { LoginPage } from '../support/pages/login.page.js';
+import { InventoryPage } from '../support/pages/InventoryPage.page.js';
+import { ShoppingCart } from '../support/pages/ShoppingCart.page.js';
+import { CheckoutStepOne } from '../support/pages/CheckoutStepOne.page.js';
+import { CheckoutStepTwo } from '../support/pages/CheckoutStepTwo.page.js';
+import { CheckoutComplete } from '../support/pages/CheckoutComplete.page.js';
 
 Given(/I am on the login page$/, async () => {
     await browser.url("/")});
 
 Given(/^I login with credentials$/, async () => {
-    await LoginPage.login('standard_user','secret_sauce')});
+    await LoginPage.login(username,password)});
 
 Given(/^I am on the inventory page$/, async () => {
     await InventoryPage.SauceLabsBackpackExists()});
@@ -48,4 +47,3 @@ When(/^I click on finish$/, async () => {
 
 Then(/^I have completed my order$/, async () => {
     await CheckoutComplete.OrderCompleted()});
-

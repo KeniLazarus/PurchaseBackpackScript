@@ -1,6 +1,8 @@
 //Page with login information;
 //Script inputs chosen username, password and clicks the login button.
 
+import { username, password } from "../../userData.js";
+
 class LoginPage {
     get inputUsername () {return $('//input[@id="user-name"]');}
     get inputPassword () {return $('//input[@id="password"]');}
